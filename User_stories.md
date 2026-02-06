@@ -9,8 +9,9 @@
 | Rate restaurant | Customer | As a customer, I want to leave a rating and review so that other users can benefit | Low | 1 |
 | Manage menu | Restaurant | As a restaurant, I want to add, edit, or remove menu items so I can update offerings | High | 2 |
 | Receive orders | Restaurant | As a restaurant, I want to receive notifications for new orders so I can prepare them on time | High | 2 |
-| Respond to messages | Restaurant | As a restaurant, I want to reply to customer messages so I can clarify orders | Medium | 2|
+| Respond to messages | Restaurant | As a restaurant, I want to reply to customer messages so I can clarify orders | Medium | 1|
 
 > Note: Additional user stories will be added as the project progresses.
 
 ---
+
