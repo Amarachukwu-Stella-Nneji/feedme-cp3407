@@ -1,26 +1,46 @@
 
-How to edit this: test-2025
-* Option-1 (tested and worked ok): PyCharm supports editing of these .md files. Then you need to push to the main branch or make a pull request.
-* Option-2 (tested ok): Edit and commit it directly on github. Then any local repo copies will need to be "updated".
+# FeedMe
 
-# cp3407-project-v2024 template [Delete or change to your team/project name before submitting]
+## Project Overview
+FeedMe is a web-based food delivery application developed as part of CP3407/CP5507 Advanced Software Engineering at James Cook University.  
+The project is designed as an improved alternative to FoodPanda, focusing on usability, affordability, and better support for small and local food vendors.
 
-This a project assignment template for CP3407. 
-The following is the list of items, which are required to be completed.
+The system allows customers to browse restaurants, place food orders, and make online payments through a modern graphical user interface.  
+Restaurant owners can manage menus and receive and update orders through an administrative dashboard.
 
-## How to submit [You may delete this before submitting]
+---
 
-2. Add your instructor (JCU-Australia: jc138691@gmail.com Dmitry Konovalov) as a team member to view your project on github
-1. Submit link to your repository
-2. Download your github repository as a zip file and submit via LearnJCU.
+## Project Goals
+- Develop a modern web application with a clear and intuitive user interface
+- Provide a complete food ordering workflow (browse, order, pay, track)
+- Support small and local food vendors with simplified order management
+- Apply software engineering best practices including user stories, iteration planning, and version control
+- Use modern development tools and cloud-ready architecture
 
-## Team
+---
 
-It is recommended to complete this assignment in a group of 2-4 students.
-1. Student 1
-2. Student name 2
-3. Name 3
-4. Name 4
+## Team Roles
+This project is currently developed as a solo project.
+
+- **Name:** Stella  
+- **Role:** Full-Stack Developer  
+- **Responsibilities:**  
+  - Requirements analysis and user stories  
+  - Frontend and backend development  
+  - Database design and integration  
+  - Testing, documentation, and deployment  
+
+---
+
+## Technologies (Planned)
+- **Frontend:** React
+- **Backend:** Node.js with Express
+- **Database:** MySQL
+- **Version Control:** Git & GitHub
+- **Cloud Services:** AWS (planned for later iterations, optional for Iteration 1)
+
+---
+
 
 
 # Project planning BEFORE iteration-1, (see chapters 1-3)
