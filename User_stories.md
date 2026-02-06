@@ -15,3 +15,15 @@
 
 ---
 
+Refined User Stories
+
+| User Story          | Role       | Priority | Estimate (days) | Iteration |
+| ------------------- | ---------- | -------- | --------------- | --------- |
+| Browse restaurants  | Customer   | High     | 2               | 1         |
+| View menu           | Customer   | High     | 2               | 1         |
+| Place order         | Customer   | High     | 3               | 1         |
+| Manage menu         | Restaurant | High     | 2               | 1         |
+| Receive orders      | Restaurant | High     | 2               | 1         |
+| Track order         | Customer   | Medium   | 2               | 2         |
+| Respond to messages | Restaurant | Medium   | 1               | 2         |
+| Rate restaurant     | Customer   | Low      | 1               | 2         |
