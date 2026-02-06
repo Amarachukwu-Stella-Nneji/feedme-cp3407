@@ -1,5 +1,8 @@
 # FeedMe Project Plan (Step 1(Planning))
 
+## Problem Statement
+Existing food delivery apps often prioritise large restaurants and charge high fees, making it hard for small or local food vendors to compete. Customers also struggle to find affordable, healthy meals quickly. FeedMe aims to improve the food ordering experience by supporting small businesses, providing an easy-to-use platform, and helping users discover quality meals efficiently.
+
 ## 1. Market Research
 
 ### Competitor Analysis
