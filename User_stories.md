@@ -62,8 +62,6 @@
 
 ### Iteration 2
 
-### Iteration 2 (Should / Could ship) – Ordered by Priority P20 → P30 → P40 → P50
-
 | User Story                         | Role       | Goal                                                                                                        | Priority | Estimate (days) | MoSCoW  |
 | ---------------------------------- | ---------- | ----------------------------------------------------------------------------------------------------------- | -------- | --------------- | ------- |
 | Track order                        | Customer   | As a customer, I want to see my order status in real-time so I know when it will arrive                     | P20      | 2               | Should  |
@@ -72,19 +70,17 @@
 | Communication channels with customers & restaurants | Driver | As a full-time driver, I want clear communication channels with customers and restaurants so I can avoid delays and misunderstandings | P20 | 1 | Should |
 | Admin dashboard                    | Admin      | As an admin, I want to monitor restaurants and orders so I can ensure platform quality                      | P20      | 2               | Should  |
 | Manage user and restaurant accounts | Admin     | As an admin, I want to manage user and restaurant accounts so I can suspend fraudulent accounts or fix problems | P20 | 2 | Should |
-
 | In-app support for delivery issues | Driver     | As a part-time driver, I want in-app support for delivery issues so I can resolve problems quickly           | P30      | 1               | Could   |
 | View performance tracking and incentives | Driver | As a full-time driver, I want to view performance tracking and incentives so I can improve earnings and maintain a strong rating | P30 | 1 | Could |
 | Respond to messages                | Restaurant | As a restaurant, I want to reply to customer messages so I can clarify orders                                 | P30      | 1               | Could   |
 | Real-time delivery issue & performance tracking | Admin | As an admin, I want to see delivery issues and performance metrics in real-time so I can identify bottlenecks and improve service | P30 | 2 | Could |
-
 | View analytics                     | Restaurant | As a restaurant, I want to see orders, revenue, and popular items so I can make business decisions           | P40      | 2               | Could   |
 | Highlight featured dishes          | Restaurant | As a restaurant, I want to feature certain menu items so I can boost sales                                  | P40      | 1               | Could   |
 | Generate analytics & reports       | Admin      | As an admin, I want to generate analytics and reports so I can make data-driven decisions for platform growth | P40 | 2 | Could |
-
 | Save favorite restaurants          | Customer   | As a customer, I want to save restaurants to a favorites list so I can reorder easily                       | P30      | 1               | Could   |
 | Rate restaurant                    | Customer   | As a customer, I want to leave a rating and review so that other users can benefit                          | P50      | 1               | Could   |
 | Apply promo codes                  | Customer   | As a customer, I want to apply discount codes to my orders so I can save money                                | P50      | 1               | Could   |
 | Filter meals by dietary preference | Customer   | As a customer, I want to filter menu items by vegan, keto, or gluten-free so I can eat according to my diet | P50      | 2               | Could   |
 | Subscription / loyalty program     | Customer   | As a customer, I want to join a loyalty program so I can get discounts for frequent orders                  | P50      | 2               | Could   |
 | Receive customer feedback          | Restaurant | As a restaurant, I want to view ratings and reviews so I can improve service                                 | P50      | 1               | Could   |
+
