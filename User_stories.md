@@ -35,52 +35,45 @@
 | Real-time delivery issue & performance tracking | Admin | As an admin, I want to see delivery issues and performance metrics in real-time so I can identify bottlenecks and improve service | P30 | 2 |
 | Generate analytics & reports | Admin | As an admin, I want to generate analytics and reports so I can make data-driven decisions for platform growth | P40 | 2 |
 
-> Note: Additional user stories will be added as the project progresses.
-
 ---
 
 ## Refined User Stories with MoSCoW Prioritization
 
-### Iteration 1
+# Iteration 1 (Must-have / P10 + one critical P20)
+| User Story | Role | Goal | MoSCoW | Priority (P10–P50) | Estimate (days) | Iteration |
+|------------|------|------|--------|------------------|----------------|-----------|
+| Browse restaurants | Customer | As a customer, I want to browse available restaurants so I can choose where to order | Must-have | P10 | 2 | 1 |
+| View menu | Customer | As a customer, I want to see the menu for a restaurant so I can select my meal | Must-have | P10 | 2 | 1 |
+| Place order | Customer | As a customer, I want to place an order and pay online so that I can receive food conveniently | Must-have | P10 | 3 | 1 |
+| Manage account/profile | Customer | As a customer, I want to create and manage my account, update personal info and payment methods | Must-have | P10 | 2 | 1 |
+| Track order | Customer | As a customer, I want to see my order status in real-time | Should-have | P20 | 2 | 1 |
+| Receive orders | Restaurant | As a restaurant, I want to receive notifications for new orders | Must-have | P10 | 2 | 1 |
+| Manage menu | Restaurant | As a restaurant, I want to add, edit, or remove menu items | Must-have | P10 | 2 | 1 |
+| Manage availability | Restaurant | As a restaurant, I want to set open/close times and delivery options | Must-have | P10 | 1 | 1 |
+| View payout before accepting delivery | Driver | As a part-time driver, I want to see the payout before accepting a delivery | Must-have | P10 | 1 | 1 |
+| Receive clear pickup/drop-off instructions | Driver | As a part-time driver, I want to receive clear pickup and drop-off instructions | Must-have | P10 | 1 | 1 |
+| Stable order flow | Driver | As a full-time driver, I want a stable flow of delivery requests | Must-have | P10 | 2 | 1 |
+| Accurate distance & payout estimates | Driver | As a full-time driver, I want accurate distance and payout estimates | Must-have | P10 | 1 | 1 |
+| Safety features & emergency support | Driver | As a full-time driver, I want safety features and emergency support | Must-have | P10 | 1 | 1 |
+| Monitor platform activity | Admin | As an admin, I want to monitor all active orders and platform activity | Must-have | P10 | 2 | 1 |
+| Handle refunds, complaints, disputes | Admin | As an admin, I want to handle refunds, complaints, and disputes | Must-have | P10 | 2 | 1 |
 
-| User Story                 | Role       | Goal                                                                                                                          | Priority | Estimate (days) | MoSCoW |
-| -------------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------- | -------- | --------------- | ------ |
-| Browse restaurants         | Customer   | As a customer, I want to browse available restaurants so I can choose where to order                                          | P10      | 2               | Must   |
-| View menu                  | Customer   | As a customer, I want to see the menu for a restaurant so I can select my meal                                                | P10      | 2               | Must   |
-| Place order                | Customer   | As a customer, I want to place an order and pay online so that I can receive food conveniently                                | P10      | 3               | Must   |
-| Manage account/profile     | Customer   | As a customer, I want to create and manage my account, update personal info and payment methods so I can securely use the app | P10      | 2               | Must   |
-| Manage menu                | Restaurant | As a restaurant, I want to add, edit, or remove menu items so I can update offerings                                          | P10      | 2               | Must   |
-| Receive orders             | Restaurant | As a restaurant, I want to receive notifications for new orders so I can prepare them on time                                 | P10      | 2               | Must   |
-| Manage availability        | Restaurant | As a restaurant, I want to set open/close times and delivery options so customers see accurate info                           | P10      | 1               | Must   |
-| View payout before accepting delivery | Driver | As a part-time driver, I want to see the payout before accepting a delivery so I can decide if the order is worth my time   | P10      | 1               | Must   |
-| Receive clear pickup/drop-off instructions | Driver | As a part-time driver, I want to receive clear pickup and drop-off instructions so I can complete deliveries efficiently | P10      | 1               | Must   |
-| Stable order flow          | Driver     | As a full-time driver, I want a stable flow of delivery requests so I can maintain consistent daily income                   | P10      | 2               | Must   |
-| Accurate distance & payout estimates | Driver | As a full-time driver, I want accurate distance and payout estimates before accepting orders so I can plan my schedule     | P10      | 1               | Must   |
-| Safety features & emergency support | Driver | As a full-time driver, I want safety features and emergency support so I can stay safe while working                        | P10      | 1               | Must   |
-| Monitor platform activity  | Admin      | As an admin, I want to monitor all active orders and platform activity in a centralized dashboard so I can ensure reliability | P10      | 2               | Must   |
-| Handle refunds, complaints, disputes | Admin | As an admin, I want to handle refunds, complaints, and disputes so I can resolve user issues efficiently                    | P10      | 2               | Must   |
+# Iteration 2 (Remaining P20 + P30 + P40)
+| Fast order assignments | Driver | As a part-time driver, I want fast order assignments with minimal idle time | Should-have | P20 | 1 | 2 |
+| Track earnings and incentives | Driver | As a part-time driver, I want to track total earnings and incentives | Should-have | P20 | 1 | 2 |
+| Communication channels with customers & restaurants | Driver | As a full-time driver, I want clear communication channels with customers and restaurants | Should-have | P20 | 1 | 2 |
+| Save favorite restaurants | Customer | As a customer, I want to save restaurants to a favorites list | Could-have | P30 | 1 | 2 |
+| Respond to messages | Restaurant | As a restaurant, I want to reply to customer messages | Could-have | P30 | 1 | 2 |
+| View performance tracking and incentives | Driver | As a full-time driver, I want to view performance tracking and incentives | Could-have | P30 | 1 | 2 |
+| In-app support for delivery issues | Driver | As a part-time driver, I want in-app support for delivery issues | Could-have | P30 | 1 | 2 |
+| Real-time delivery issue & performance tracking | Admin | As an admin, I want to see delivery issues and performance metrics in real-time | Could-have | P30 | 2 | 2 |
+| View analytics | Restaurant | As a restaurant, I want to see orders, revenue, and popular items | Could-have | P40 | 2 | 2 |
+| Highlight featured dishes | Restaurant | As a restaurant, I want to feature certain menu items | Could-have | P40 | 1 | 2 |
+| Generate analytics & reports | Admin | As an admin, I want to generate analytics and reports | Could-have | P40 | 2 | 2 |
 
-### Iteration 2
-
-| User Story                         | Role       | Goal                                                                                                        | Priority | Estimate (days) | MoSCoW  |
-| ---------------------------------- | ---------- | ----------------------------------------------------------------------------------------------------------- | -------- | --------------- | ------- |
-| Track order                        | Customer   | As a customer, I want to see my order status in real-time so I know when it will arrive                     | P20      | 2               | Should  |
-| Fast order assignments             | Driver     | As a part-time driver, I want fast order assignments with minimal idle time so I can maximize earnings       | P20      | 1               | Should  |
-| Track earnings and incentives      | Driver     | As a part-time driver, I want to track total earnings and incentives in the app so I know my earnings        | P20      | 1               | Should  |
-| Communication channels with customers & restaurants | Driver | As a full-time driver, I want clear communication channels with customers and restaurants so I can avoid delays and misunderstandings | P20 | 1 | Should |
-| Admin dashboard                    | Admin      | As an admin, I want to monitor restaurants and orders so I can ensure platform quality                      | P20      | 2               | Should  |
-| Manage user and restaurant accounts | Admin     | As an admin, I want to manage user and restaurant accounts so I can suspend fraudulent accounts or fix problems | P20 | 2 | Should |
-| In-app support for delivery issues | Driver     | As a part-time driver, I want in-app support for delivery issues so I can resolve problems quickly           | P30      | 1               | Could   |
-| View performance tracking and incentives | Driver | As a full-time driver, I want to view performance tracking and incentives so I can improve earnings and maintain a strong rating | P30 | 1 | Could |
-| Respond to messages                | Restaurant | As a restaurant, I want to reply to customer messages so I can clarify orders                                 | P30      | 1               | Could   |
-| Real-time delivery issue & performance tracking | Admin | As an admin, I want to see delivery issues and performance metrics in real-time so I can identify bottlenecks and improve service | P30 | 2 | Could |
-| View analytics                     | Restaurant | As a restaurant, I want to see orders, revenue, and popular items so I can make business decisions           | P40      | 2               | Could   |
-| Highlight featured dishes          | Restaurant | As a restaurant, I want to feature certain menu items so I can boost sales                                  | P40      | 1               | Could   |
-| Generate analytics & reports       | Admin      | As an admin, I want to generate analytics and reports so I can make data-driven decisions for platform growth | P40 | 2 | Could |
-| Save favorite restaurants          | Customer   | As a customer, I want to save restaurants to a favorites list so I can reorder easily                       | P30      | 1               | Could   |
-| Rate restaurant                    | Customer   | As a customer, I want to leave a rating and review so that other users can benefit                          | P50      | 1               | Could   |
-| Apply promo codes                  | Customer   | As a customer, I want to apply discount codes to my orders so I can save money                                | P50      | 1               | Could   |
-| Filter meals by dietary preference | Customer   | As a customer, I want to filter menu items by vegan, keto, or gluten-free so I can eat according to my diet | P50      | 2               | Could   |
-| Subscription / loyalty program     | Customer   | As a customer, I want to join a loyalty program so I can get discounts for frequent orders                  | P50      | 2               | Could   |
-| Receive customer feedback          | Restaurant | As a restaurant, I want to view ratings and reviews so I can improve service                                 | P50      | 1               | Could   |
-
+# Later Iteration (P50)
+| Rate restaurant | Customer | As a customer, I want to leave a rating and review | Won’t-have / Later | P50 | 1 | Later |
+| Apply promo codes | Customer | As a customer, I want to apply discount codes to my orders | Won’t-have / Later | P50 | 1 | Later |
+| Filter meals by dietary preference | Customer | As a customer, I want to filter menu items by vegan, keto, or gluten-free | Won’t-have / Later | P50 | 2 | Later |
+| Subscription / loyalty program | Customer | As a customer, I want to join a loyalty program | Won’t-have / Later | P50 | 2 | Later |
+| Receive customer feedback | Restaurant | As a restaurant, I want to view ratings and reviews | Won’t-have / Later | P50 | 1 | Later |
