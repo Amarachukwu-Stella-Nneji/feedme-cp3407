@@ -67,6 +67,9 @@
 | User Story | Role | Goal | Priority (MoSCoW / P) | Estimate (days) | Acceptance Criteria |
 |------------|------|------|-----------------------|----------------|-------------------|
 | Track order | Customer | As a customer, I want to see my order status in real-time so I know when it will arrive | Should-have / P20 | 2 | Customer sees order progress: Preparing, On the way, Delivered; estimated delivery time displayed |
+| In-app support for delivery issues | Driver | As a part-time driver, I want in-app support for delivery issues so I can resolve problems quickly | Could / P30 | 1 | Driver can report issues; support ticket is logged; admin sees delayed/failed deliveries automatically |
+| View performance tracking and incentives | Driver | As a full-time driver, I want to view performance tracking and incentives so I can improve earnings and maintain a strong rating | Could / P30 | 1 | Driver sees real-time metrics; admin dashboard updates automatically with driver performance |
+| Manage user and restaurant accounts | Admin | As an admin, I want to manage user and restaurant accounts so I can suspend fraudulent accounts or fix problems | Should / P20 | 2 | Admin can suspend or update accounts; system logs changes; delayed/failed order data is visible automatically |
 | Save favorite restaurants | Customer | As a customer, I want to save restaurants to a favorites list so I can reorder easily | Could-have / P30 | 1 | Customer can add/remove restaurants; favorites list accessible |
 | Respond to messages | Restaurant | As a restaurant, I want to reply to customer messages so I can clarify orders | Could-have / P30 | 1 | Restaurant can send/receive messages; notifications for new messages |
 | Fast order assignments | Driver | As a part-time driver, I want fast order assignments with minimal idle time so I can maximize earnings | Should-have / P20 | 1 | Orders assigned automatically based on proximity; driver notified within X seconds |
@@ -85,3 +88,4 @@
 | Filter meals by dietary preference | Customer | As a customer, I want to filter menu items by vegan, keto, or gluten-free so I can eat according to my diet | Won’t-have / P50 | 2 | Filter applies dynamically; menu updates correctly |
 | Subscription / loyalty program | Customer | As a customer, I want to join a loyalty program so I can get discounts for frequent orders | Won’t-have / P50 | 2 | Loyalty program tracks points/discounts automatically |
 | Receive customer feedback | Restaurant | As a restaurant, I want to view ratings and reviews so I can improve service | Won’t-have / P50 | 1 | Restaurant can view all ratings/reviews; filterable by date/rating |
+
