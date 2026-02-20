@@ -79,6 +79,7 @@
 | Real-time delivery issue & performance tracking | Admin | As an admin, I want to see delivery issues and performance metrics in real-time so I can identify bottlenecks and improve service | Could-have / P30 | 2 | Admin sees delayed/failed deliveries; metrics update automatically |
 | View analytics | Restaurant | As a restaurant, I want to see orders, revenue, and popular items so I can make business decisions | Could-have / P40 | 2 | Analytics dashboard shows orders by day/week/month; revenue summary; top-selling items |
 | Highlight featured dishes | Restaurant | As a restaurant, I want to feature certain menu items so I can boost sales | Could-have / P40 | 1 | Items can be marked as featured; featured items appear at top of menu |
+| Generate analytics & reports | Admin | As an admin, I want to generate analytics and reports so I can make data-driven decisions for platform growth | Should / P40 | 2 | Admin can view reports that update automatically; delayed/failed deliveries are highlighted; key metrics (orders, revenue, delivery times, issues) update in real-time |
 
 # Later / P50 (MoSCoW: Won’t have now, nice to have later)
 | User Story | Role | Goal | Priority | Estimate (days) | Acceptance Criteria |
@@ -88,4 +89,5 @@
 | Filter meals by dietary preference | Customer | As a customer, I want to filter menu items by vegan, keto, or gluten-free so I can eat according to my diet | Won’t-have / P50 | 2 | Filter applies dynamically; menu updates correctly |
 | Subscription / loyalty program | Customer | As a customer, I want to join a loyalty program so I can get discounts for frequent orders | Won’t-have / P50 | 2 | Loyalty program tracks points/discounts automatically |
 | Receive customer feedback | Restaurant | As a restaurant, I want to view ratings and reviews so I can improve service | Won’t-have / P50 | 1 | Restaurant can view all ratings/reviews; filterable by date/rating |
+
 
