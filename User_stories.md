@@ -62,6 +62,8 @@
 
 ### Iteration 2
 
+### Iteration 2 (Should / Could ship) – Ordered by Priority P20 → P30 → P40 → P50
+
 | User Story                         | Role       | Goal                                                                                                        | Priority | Estimate (days) | MoSCoW  |
 | ---------------------------------- | ---------- | ----------------------------------------------------------------------------------------------------------- | -------- | --------------- | ------- |
 | Track order                        | Customer   | As a customer, I want to see my order status in real-time so I know when it will arrive                     | P20      | 2               | Should  |
