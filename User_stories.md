@@ -35,11 +35,9 @@
 | Real-time delivery issue & performance tracking | Admin | As an admin, I want to see delivery issues and performance metrics in real-time so I can identify bottlenecks and improve service | P30 | 2 |
 | Generate analytics & reports | Admin | As an admin, I want to generate analytics and reports so I can make data-driven decisions for platform growth | P40 | 2 |
 
-> Note: Additional user stories will be added as the project progresses.
-
 ---
 
-## Refined User Stories with MoSCoW Prioritization
+## Refined User Stories with MoSCoW Prioritization including their acceptance criteria
 
 # Iteration 1
 
@@ -89,5 +87,6 @@
 | Filter meals by dietary preference | Customer | As a customer, I want to filter menu items by vegan, keto, or gluten-free so I can eat according to my diet | Won’t-have / P50 | 2 | Filter applies dynamically; menu updates correctly |
 | Subscription / loyalty program | Customer | As a customer, I want to join a loyalty program so I can get discounts for frequent orders | Won’t-have / P50 | 2 | Loyalty program tracks points/discounts automatically |
 | Receive customer feedback | Restaurant | As a restaurant, I want to view ratings and reviews so I can improve service | Won’t-have / P50 | 1 | Restaurant can view all ratings/reviews; filterable by date/rating |
+
 
 
