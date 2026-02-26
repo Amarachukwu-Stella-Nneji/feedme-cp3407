@@ -88,5 +88,89 @@
 | Subscription / loyalty program | Customer | As a customer, I want to join a loyalty program so I can get discounts for frequent orders | Won’t-have / P50 | 2 | Loyalty program tracks points/discounts automatically |
 | Receive customer feedback | Restaurant | As a restaurant, I want to view ratings and reviews so I can improve service | Won’t-have / P50 | 1 | Restaurant can view all ratings/reviews; filterable by date/rating |
 
+-----
+# MVP Statement
+Iteration 1 delivers a functional end-to-end food ordering system:
 
+- **Customers** can:
+  - Browse restaurants
+  - View menus
+  - Manage their cart
+  - Enter delivery details
+  - Place orders
+- **Restaurants** can:
+  - Receive and prepare orders
+  - Manage menus and availability
+- **Drivers** can:
+  - View payouts
+  - Receive clear pickup/drop-off instructions
+  - Maintain a stable order flow
+- **Admins** can:
+  - Monitor platform activity
+  - Handle refunds, complaints, and disputes
+
+---
+
+# Prioritisation Method Justification
+| Priority | Description | Iteration |
+|----------|------------|-----------|
+| P10      | Browse restaurants, view menu, manage cart, enter delivery details, place order | Must ship Iteration 1 |
+| P20      | View receipt/summary, track order status | Should ship Iteration 1 |
+| P30      | Notifications | Nice-to-have Iteration 1 / early Iteration 2 |
+| P40      | Order history + re-order | Iteration 2 |
+| P50      | Ratings/reviews, promotions, advanced filtering | Later |
+
+---
+
+# Notes & Assumptions – Personas
+
+**1. Customer**
+- Users have a smartphone with internet access.
+- Time-poor users → checkout must be fast and simple.
+- Medium tech comfort assumed.
+- Payment gateways are secure and working.
+
+**2. Driver / Courier**
+- Drivers have a mobile device with GPS and internet.
+- On-the-move → interface minimizes taps/distractions.
+- Part-time/full-time drivers → selective feature access.
+- Drivers update delivery status accurately and promptly.
+
+**3. Restaurant / Service Provider**
+- Staff use tablet/desktop in busy kitchens.
+- Menu updates mostly outside peak hours.
+- System must handle multiple simultaneous orders.
+- Notifications for new orders are reliable.
+
+**4. Admin / Support**
+- Admins work primarily during business hours.
+- System logs are complete for dispute resolution.
+- Admin actions are tracked for auditing.
+- Dashboards accessible via desktop (tablet optional).
+
+---
+
+# Dependencies Table
+
+| User Story                | Depends on |
+|---------------------------|------------|
+| Place order               | Browse restaurants, View menu, Manage account |
+| Track order               | Restaurant status updates, Driver delivery confirmation |
+| Driver delivery           | Restaurant marks order ready |
+| Admin dispute handling    | Completed order + delivery data |
+| Save favorite restaurants | Customer account creation |
+| Rate restaurant           | Placed order |
+
+---
+
+# Non-Functional Requirements (NFRs)
+
+| Type          | Requirement |
+|---------------|------------|
+| Performance   | Order status updates within 2 seconds |
+| Availability  | System available ≥99% during peak hours |
+| Security      | Payments encrypted; user authentication required |
+| Usability     | Checkout completed in ≤3 steps; mobile-friendly |
+| Scalability   | Supports 500 concurrent orders without degradation |
+| Reliability   | Delivery notifications and updates logged correctly |
 
